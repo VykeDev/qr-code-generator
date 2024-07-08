@@ -3,7 +3,10 @@ function Card() {
     <div className="card">
       <h1>Generate QR code</h1>
       <div className="qr-code"></div>
-      <button className="btn-generate-code">Gererate</button>
+      <form>
+        <input type="url" name="url" id="url" placeholder="url" />
+        <button className="btn-generate-code">Gererate</button>
+      </form>
     </div>
   );
 }

@@ -44,3 +44,10 @@ body {
 .btn-generate-code:active {
   background-color: rgb(74, 182, 146);
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
