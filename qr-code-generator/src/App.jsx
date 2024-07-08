@@ -1,9 +1,17 @@
-function App() {
+function Card() {
   return (
-    <>
-      <h1>hi</h1>
-    </>
+    <div className="card">
+      <h1>Generate QR code</h1>
+      <div className="qr-code"></div>
+      <button className="btn-generate-code">Gererate</button>
+    </div>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Card />
+    </>
+  );
+}
